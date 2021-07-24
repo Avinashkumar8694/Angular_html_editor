@@ -1,22 +1,22 @@
 
-p {
-    font-family: Lato;
-    }
-    .example-card {
-    max-width: 500px;
-    margin: 4px
-    }
-    
-    mat-card-subtitle{
-    font-size:30px
-    }
-    
-    mat-card-title{
-    color:green;
-    font-size:40px
-    }
+.editor-container{
+    display: flex;
+    flex-direction: row;
 
-    .container-fluid{
-        display: flex;
-        flex-wrap: nowrap;
-    }
+}
+.editor-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.editor-container div > mat-card {
+    height: 100%;
+}
+.htmlInst{
+    width: 100%;
+    height: 100%;
+}
+
+mat-card mat-card-content {
+     height: 35vh;
+}

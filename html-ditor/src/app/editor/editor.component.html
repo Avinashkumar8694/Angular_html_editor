@@ -1,1 +1,6 @@
-<p>editor works!</p>
+
+<div class="editor-container" fxLayout="column">
+    <ngx-monaco-editor #MonacoEditorComp fxFlex (ngModelChange)="updateUI($event)" [options]="editorOptions" [(ngModel)]="MonacoCode">
+    </ngx-monaco-editor>
+  </div>
+  
