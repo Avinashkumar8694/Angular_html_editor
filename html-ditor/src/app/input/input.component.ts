@@ -27,10 +27,10 @@ export class InputComponent implements OnInit {
         this.jsCode = code;
       }
     }  
-
+    
     this.html =
-      `<style type="text/css">\n${this.cssCode}\n</style>\n` +
-      `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>\n<script type="text/javascript">\n${this.jsCode}\n</script>\n` +
+      `<style type='text/css'>\n${this.cssCode}\n</style>\n` +
+      `<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>\n<script type='text/javascript'>\n${this.jsCode}\n</script>\n` +
       this.htmlCode;
   }
 
