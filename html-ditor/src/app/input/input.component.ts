@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./input.component.css'],
 })
 export class InputComponent implements OnInit {
-  htmlCode: any = '';
-  cssCode: any = '';
-  jsCode: any = '';
+  htmlCode: any = '<html>\n<head>\n	<!-- HTML comment -->\n</head>\n<body> \n Hello world \n</body>\n</html>';
+  cssCode: any = `\n/* CSS comment */\n`;
+  jsCode: any = '\n// JavaScript comment\n';
   html: any = '';
   constructor() {
     this.setCode();
@@ -17,17 +17,21 @@ export class InputComponent implements OnInit {
   ngOnInit(): void {}
 
   setCode(code?: any, type?: any) {
-    this.htmlCode =
-      type && type === 'html' && code
-        ? code
-        : '<html>\n<head>\n	<!-- HTML comment -->\n</head>\n<body> \n Hello world \n</body>\n</html>';
-    this.cssCode = type && type ==='css' && code ? code : `\n/* CSS comment */\n`
-    this.jsCode= type && type ==='js' && code ? code : '\n// JavaScript comment\n'
+
+    if(code && type){
+      if(type === 'html'){
+        this.htmlCode = code;
+      } else if(type === 'css'){
+        this.cssCode = code;
+      } else if(type === 'js'){
+        this.jsCode = code;
+      }
+    }  
+
     this.html =
       `<style type="text/css">\n${this.cssCode}\n</style>\n` +
       `<script type="javascript">\n${this.jsCode}\n</script>\n` +
       this.htmlCode;
-    localStorage.setItem('html_preview', this.html);
   }
 
   updatePreview(event: any, type: any) {
