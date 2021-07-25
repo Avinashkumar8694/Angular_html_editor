@@ -64,6 +64,6 @@ export class EditorComponent implements OnInit {
     }
     this.$timer = setTimeout(() => {
       this.codeEmitter.emit(this.MonacoCode);
-    }, 400);
+    }, 1200);
   }
 }
