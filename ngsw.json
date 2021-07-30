@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1627675630496,
+  "timestamp": 1627675822855,
   "index": "https://Avinashkumar8694.github.io/Angular_html_editor/index.html",
   "assetGroups": [
     {
@@ -58,7 +58,7 @@
     "https://Avinashkumar8694.github.io/Angular_html_editor/manifest.webmanifest": "c7fe591b562f52ed35694aa4c559442faeac902d",
     "https://Avinashkumar8694.github.io/Angular_html_editor/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://Avinashkumar8694.github.io/Angular_html_editor/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://Avinashkumar8694.github.io/Angular_html_editor/service-worker.js": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "https://Avinashkumar8694.github.io/Angular_html_editor/service-worker.js": "e4c814c21b0a603aff2aaa9c0c4c86c649ab5c08",
     "https://Avinashkumar8694.github.io/Angular_html_editor/styles.3e6f83c49e2690e9651f.css": "fb65905e98d78ff3a0549cfdf299caa40ed832f0"
   },
   "navigationUrls": [
