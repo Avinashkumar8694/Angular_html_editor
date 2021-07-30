@@ -1,19 +1,19 @@
 {
   "configVersion": 1,
-  "timestamp": 1627674313026,
+  "timestamp": 1627674519150,
   "index": "https://Avinashkumar8694.github.io/Angular_html_editor/index.html",
   "assetGroups": [
     {
       "name": "app",
-      "installMode": "lazy",
-      "updateMode": "lazy",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
       },
       "urls": [
         "https://Avinashkumar8694.github.io/Angular_html_editor/favicon.ico",
         "https://Avinashkumar8694.github.io/Angular_html_editor/index.html",
-        "https://Avinashkumar8694.github.io/Angular_html_editor/main.136be712c3f71e9a2cfa.js",
+        "https://Avinashkumar8694.github.io/Angular_html_editor/main.528b962f60ed000732e4.js",
         "https://Avinashkumar8694.github.io/Angular_html_editor/manifest.webmanifest",
         "https://Avinashkumar8694.github.io/Angular_html_editor/polyfills.8c151b8375e767ff858f.js",
         "https://Avinashkumar8694.github.io/Angular_html_editor/runtime.0e49e2b53282f40c8925.js",
@@ -23,7 +23,7 @@
     },
     {
       "name": "assets",
-      "installMode": "prefetch",
+      "installMode": "lazy",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
@@ -41,27 +41,7 @@
       "patterns": []
     }
   ],
-  "dataGroups": [
-    {
-      "name": "test",
-      "patterns": [
-        "\\/.*",
-        "\\/Angular_html_editor\\/[^/]*",
-        "\\/Angular_html_editor\\/.*",
-        "\\/[^/]*\\/.*",
-        "\\/[^/]*",
-        "https:\\/\\/Avinashkumar8694\\.github\\.io\\/Angular_html_editor\\/home"
-      ],
-      "strategy": "performance",
-      "maxSize": 1000,
-      "maxAge": 259200000,
-      "timeoutMs": 20000,
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "https://Avinashkumar8694.github.io/Angular_html_editor/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://Avinashkumar8694.github.io/Angular_html_editor/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -72,9 +52,9 @@
     "https://Avinashkumar8694.github.io/Angular_html_editor/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://Avinashkumar8694.github.io/Angular_html_editor/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://Avinashkumar8694.github.io/Angular_html_editor/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Avinashkumar8694.github.io/Angular_html_editor/index.html": "bb66f03d37d5209115b703f2a35d51cf6db31912",
-    "https://Avinashkumar8694.github.io/Angular_html_editor/main.136be712c3f71e9a2cfa.js": "2e343a61ccfec153cfed435f1ac9e0b1ee8c83a3",
-    "https://Avinashkumar8694.github.io/Angular_html_editor/manifest.webmanifest": "fc256a9326f9304b5c36b20b09300d461afbb86b",
+    "https://Avinashkumar8694.github.io/Angular_html_editor/index.html": "8a3f9be2aad4b8cbb1a4a5d4cf6f1267d7304eb5",
+    "https://Avinashkumar8694.github.io/Angular_html_editor/main.528b962f60ed000732e4.js": "eb02a7a0b6d12417a531a2b28a0facef29472847",
+    "https://Avinashkumar8694.github.io/Angular_html_editor/manifest.webmanifest": "c7fe591b562f52ed35694aa4c559442faeac902d",
     "https://Avinashkumar8694.github.io/Angular_html_editor/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://Avinashkumar8694.github.io/Angular_html_editor/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://Avinashkumar8694.github.io/Angular_html_editor/styles.3e6f83c49e2690e9651f.css": "fb65905e98d78ff3a0549cfdf299caa40ed832f0"
