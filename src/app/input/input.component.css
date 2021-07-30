@@ -1,8 +1,8 @@
 
 .editor-container{
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
+    flex-flow: column;
 }
 .editor-container > div {
     display: flex;
@@ -19,4 +19,8 @@
 
 mat-card mat-card-content {
      height: 35vh;
+}
+.preview{
+    display: flex;
+    flex-flow: column;
 }
