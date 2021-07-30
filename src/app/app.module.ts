@@ -10,6 +10,8 @@ import { MonacoEditorModule, MONACO_PATH } from '@materia-ui/ngx-monaco-editor';
 import {MatCardModule} from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EditorComponent } from './editor/editor.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,13 @@ import { EditorComponent } from './editor/editor.component';
     MatCardModule,
     BrowserAnimationsModule,
     FormsModule,
-    MonacoEditorModule
+    MonacoEditorModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [
     {
