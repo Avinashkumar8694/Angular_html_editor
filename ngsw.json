@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1627672277399,
+  "timestamp": 1627672439068,
   "index": "https://Avinashkumar8694.github.io/Angular_html_editor/index.html",
   "assetGroups": [
     {
@@ -49,7 +49,8 @@
         "\\/Angular_html_editor\\/[^/]*",
         "\\/Angular_html_editor\\/.*",
         "\\/[^/]*\\/.*",
-        "\\/[^/]*"
+        "\\/[^/]*",
+        "https:\\/\\/avinashkumar8694\\.github\\.io\\/Angular_html_editor\\/input"
       ],
       "strategy": "performance",
       "maxSize": 1000,
