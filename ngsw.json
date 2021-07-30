@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1627673154820,
+  "timestamp": 1627673304968,
   "index": "https://Avinashkumar8694.github.io/Angular_html_editor/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://Avinashkumar8694.github.io/Angular_html_editor/favicon.ico",
         "https://Avinashkumar8694.github.io/Angular_html_editor/index.html",
-        "https://Avinashkumar8694.github.io/Angular_html_editor/main.312bf16894af0227d0ed.js",
+        "https://Avinashkumar8694.github.io/Angular_html_editor/main.f274e397953007bf9e64.js",
         "https://Avinashkumar8694.github.io/Angular_html_editor/manifest.webmanifest",
         "https://Avinashkumar8694.github.io/Angular_html_editor/polyfills.8c151b8375e767ff858f.js",
         "https://Avinashkumar8694.github.io/Angular_html_editor/runtime.0e49e2b53282f40c8925.js",
@@ -72,8 +72,8 @@
     "https://Avinashkumar8694.github.io/Angular_html_editor/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://Avinashkumar8694.github.io/Angular_html_editor/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://Avinashkumar8694.github.io/Angular_html_editor/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Avinashkumar8694.github.io/Angular_html_editor/index.html": "63e052ad5bdc47b0ca1164cb640c15a2a278ffc7",
-    "https://Avinashkumar8694.github.io/Angular_html_editor/main.312bf16894af0227d0ed.js": "739181411748de57a352d4b4dd6e5666ef8d1baf",
+    "https://Avinashkumar8694.github.io/Angular_html_editor/index.html": "dc8af13a552afd70a6fed46ae6a141ccbc4eef8c",
+    "https://Avinashkumar8694.github.io/Angular_html_editor/main.f274e397953007bf9e64.js": "49eb9d292aa6acfed4437b404dc71a8c72c11ccb",
     "https://Avinashkumar8694.github.io/Angular_html_editor/manifest.webmanifest": "c7fe591b562f52ed35694aa4c559442faeac902d",
     "https://Avinashkumar8694.github.io/Angular_html_editor/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://Avinashkumar8694.github.io/Angular_html_editor/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
