@@ -4,8 +4,8 @@
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "https://Avinashkumar8694.github.io/Angular_html_editor/",
-  "start_url": "https://Avinashkumar8694.github.io/Angular_html_editor/",
+  "scope": "/",
+  "start_url": "/Angular_html_editor",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
