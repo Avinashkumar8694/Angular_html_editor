@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    height: 53vh;
+    height: 100%;
 }
 iframe{
     height: 100%;
