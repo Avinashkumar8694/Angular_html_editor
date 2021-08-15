@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+//import {MatButtonModule} from '@angular/material/button';
 @Component({
   selector: 'app-input',
   templateUrl: './input.component.html',
@@ -10,12 +10,30 @@ export class InputComponent implements OnInit {
   cssCode: any = `\n/* CSS comment */\n`;
   jsCode: any = '\n// JavaScript comment\n';
   html: any = '';
+  
+  inputhtml = true
+  inputcss  = false
+  inputjs = false
   constructor() {
     this.setCode();
   }
 
   ngOnInit(): void {}
-
+  htmlclick(){
+    this.inputhtml = true
+    this.inputcss  = false
+    this.inputjs = false
+  }
+  cssclick(){
+    this.inputhtml = false
+    this.inputcss  = true
+    this.inputjs = false
+  }
+  jsclick(){
+    this.inputhtml = false
+    this.inputcss  = false 
+    this.inputjs = true
+  }
   setCode(code?: any, type?: any) {
 
     if(code && type){

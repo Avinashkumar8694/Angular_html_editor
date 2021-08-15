@@ -10,6 +10,7 @@ import { MonacoEditorModule, MONACO_PATH } from '@materia-ui/ngx-monaco-editor';
 import {MatCardModule} from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EditorComponent } from './editor/editor.component';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,9 @@ import { EditorComponent } from './editor/editor.component';
     MatCardModule,
     BrowserAnimationsModule,
     FormsModule,
-    MonacoEditorModule
+    MonacoEditorModule,
+    
+    
   ],
   providers: [
     {

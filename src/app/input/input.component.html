@@ -1,10 +1,14 @@
 <div class="row">
     <div class="column1">
         <div class="editor-container">
-            <div>
+            <button mat-button color="primary" (click)="htmlclick()">HTML</button>
+            <button mat-button color="primary" (click)="cssclick()">CSS</button>
+            <button mat-button color="primary" (click)="jsclick()">JS</button>
+            <div *ngIf="inputhtml">
                 <mat-card class="codeinst">
                     <mat-card-header>
                         <mat-card-title>HTML</mat-card-title>
+                       
                     </mat-card-header>
                     <mat-card-content>
                         <app-editor [_code]="htmlCode" (codeEmitter)="updatePreview($event,'html')" class="htmlInst">
@@ -12,10 +16,13 @@
                     </mat-card-content>
                 </mat-card>
             </div>
-            <div>
+            <div *ngIf="inputcss">
                 <mat-card class="codeinst">
                     <mat-card-header>
                         <mat-card-title>CSS</mat-card-title>
+                        <!-- <button mat-button color="primary" (click)="htmlclick()">HTML</button>
+                        <button mat-button color="primary" (click)="cssclick()">CSS</button>
+                        <button mat-button color="primary" (click)="jsclick()">JS</button> -->
                     </mat-card-header>
                     <mat-card-content>
                         <app-editor [_code]="cssCode" (codeEmitter)="updatePreview($event,'css')" class="htmlInst">
@@ -23,10 +30,13 @@
                     </mat-card-content>
                 </mat-card>
             </div>
-            <div>
+            <div *ngIf="inputjs">
                 <mat-card class="codeinst">
                     <mat-card-header>
                         <mat-card-title>JS</mat-card-title>
+                        <!-- <button mat-button color="primary" (click)="htmlclick()">HTML</button>
+                        <button mat-button color="primary" (click)="cssclick()">CSS</button>
+                        <button mat-button color="primary" (click)="jsclick()">JS</button> -->
                     </mat-card-header>
                     <mat-card-content>
                         <app-editor [_code]="jsCode" (codeEmitter)="updatePreview($event,'js')" class="htmlInst">
@@ -36,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class="">
+    <div class="column2">
         <app-output [preview]="html"></app-output>
     </div>
 </div>
