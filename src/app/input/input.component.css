@@ -8,9 +8,9 @@
 .column1{
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     flex:1;
-    
+    /* width: 50%; */
 }
 .mat-card {
     transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -24,11 +24,13 @@
     display: flex;
     flex-direction: column;
     flex-flow: column;
+    width: 100%;
+    
 }
 .editor-container > div {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    /* width: 100%; */
 }
 .editor-container div > mat-card {
     height: 100%;
@@ -40,10 +42,21 @@
 
 mat-card mat-card-content {
      height: 100vh;
-     /* width: 100%; */
+     width: 100%;
 }
 .preview{
     display: flex;
     flex-flow: column;
-    width: 50%
+    /* width: 50% */
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    /* width:max-content; */
+    justify-content: space-around;
+    /* align-items: stretch */
+}
+.btn{
+width: 100px;
+border: 1px dotted black;
 }
