@@ -14,7 +14,12 @@ export class InputComponent implements OnInit {
     this.setCode();
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    const editorArr = ['html','css','js'];
+    for(let i=0; i< editorArr.length; i++){
+      this.setCode(localStorage.getItem(editorArr[i]),editorArr[i]);
+    }
+  }
 
   setCode(code?: any, type?: any) {
 
@@ -27,7 +32,6 @@ export class InputComponent implements OnInit {
         this.jsCode = code;
       }
     }  
-    
     this.html =
       `<style type='text/css'>\n${this.cssCode}\n</style>\n` +
       `<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>\n<script type='text/javascript'>\n${this.jsCode}\n</script>\n` +
@@ -35,6 +39,7 @@ export class InputComponent implements OnInit {
   }
 
   updatePreview(event: any, type: any) {
+    localStorage.setItem(type, event);
     this.setCode(event, type);
   }
 }
